@@ -1,0 +1,65 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --button: #f4f4fd;
+  --pressed-state: #404bbf;
+  --primary-white: #ffffff;
+  --dark: #2e2f42;
+  --text: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
+  size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1440px;
+}
+
+.header {
+}
+
+.logo {
+  font-weight: 800;
+}
+
+.logo-color {
+  color: var(--primary-brand);
+}
+
+/*PORTFOLIO*/
+
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background-color: var(--button);
+  border: none;
+  color: var(--primary-brand);
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  color: var(--primary-white);
+  background-color: var(--pressed-state);
+}
+
+.product-list-header {
+  font-weight: 500;
+  size: 20px;
+  letter-spacing: 2%;
+}
+
+.product-list-text {
+}
