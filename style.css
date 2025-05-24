@@ -12,7 +12,7 @@ body {
   color: var(--text);
   size: 16px;
   line-height: 1.5em;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -38,7 +38,23 @@ ul {
   color: var(--primary-brand);
 }
 
+.nav-link {
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.contacts-link {
+  color: var(--dark);
+  font-style: normal;
+}
+
+.nav-link:hover, .contacts-link:hover {
+  color: var(--pressed-state);
+}
+
 /*PORTFOLIO*/
+
+/*filter buttons*/
 
 .filter-button {
   font-family: "Roboto", sans-serif;
@@ -55,10 +71,11 @@ ul {
   background-color: var(--pressed-state);
 }
 
+/*our products*/
+
 .product-list-header {
   font-weight: 500;
   size: 20px;
-  letter-spacing: 2%;
 }
 
 .product-list-text {
